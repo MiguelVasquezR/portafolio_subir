@@ -1,0 +1,86 @@
+.form__container{    
+    width: 80%;
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__title{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 10px 0;
+    outline: none;
+    font-family: inherit;
+    font-style: 20px;
+}
+
+.form__descripcion{
+    width: 70%;
+    height: 300px;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    font-family: inherit;    
+    font-size: 20px;
+}
+
+.form__fieldset{    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.form__legend{    
+    padding: 0 10px;
+    font-size: 1.5rem;    
+}
+
+.imgs__container{    
+    width: 100%;    
+}
+
+.form__img{
+    width: 300px;    
+    object-fit: cover;
+    margin: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.form__button{
+    width: 200px;    
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: #fff;        
+}
+
+.form__button:hover{
+    background-color: #000;
+    color: white;
+}
+
+.textarea__container{
+    width: 100%;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txta__p{    
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
