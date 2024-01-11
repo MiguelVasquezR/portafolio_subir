@@ -24,7 +24,7 @@ const Certificado = () => {
         formData.append('descripcion', descripcion);
 
         const fetchUpload = async () => {
-            const res = await fetch('http://localhost:9000/saved/certificate', { method: 'POST', body: formData });
+            const res = await fetch('https://backportafolio-production.up.railway.app/saved/certificate', { method: 'POST', body: formData });
             if (res.ok) {
                 const data = await res.json();
                 console.log(data);

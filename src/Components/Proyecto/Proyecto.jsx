@@ -41,7 +41,7 @@ const Proyecto = () => {
         formData.append('file4', files[3])
         const handleSubmitData = () => {
             const fetchData = async () => {
-                const res = await fetch('http://192.168.1.67:9000/saved/project', { method: 'POST', body: formData });
+                const res = await fetch('https://backportafolio-production.up.railway.app/saved/project', { method: 'POST', body: formData });
                 if (res.ok) {
                     const data = await res.json();
                     console.log(data);
